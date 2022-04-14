@@ -41,8 +41,15 @@ for (let i = 0; i <= 4; i++) {
 console.log(arrThree);
 
 //6
-const arrFour = [];
+let arr11 = []
+let num = 1;
+let elem = '1';
 
+for (; num <= 5; num++) {
+    elem = elem + '1';
+    if (num <= 1) arr11.push(num);
 
+    if (num > 1) arr11.push(Number(elem) * num);
+}
 
-console.log(arrFour);
+console.log(arr11);
