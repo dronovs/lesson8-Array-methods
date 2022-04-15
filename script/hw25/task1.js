@@ -56,10 +56,10 @@ function someElem (func, arr) {
 }
 const someVar = someElem(num => num > 100, array);
 
-console.log(indexOfElem(array, 5), 'log fot INDEXOF method');
-console.log(lastIndexOfElem(array, 6), 'log fot LASTINDEXOF method');
-console.log(findElem(array, 9), 'log fot FIND method');
-console.log(findIndexOfElem(array, 3), 'log fot FINDINDEXOF method');
-console.log(includesElem(array, 11), 'log fot INCLUDES method');
+console.log(indexOfElem(array, 5), 'log of INDEXOF method');
+console.log(lastIndexOfElem(array, 6), 'log of LASTINDEXOF method');
+console.log(findElem(array, 9), 'log of FIND method');
+console.log(findIndexOfElem(array, 3), 'log of FINDINDEXOF method');
+console.log(includesElem(array, 11), 'log of INCLUDES method');
 console.log(everyVar, 'log of EVERY method');
 console.log(someVar, 'log of SOME method');
