@@ -132,3 +132,5 @@ for (let i = 0; i <= arrFive.length - 1; i++) {
     }
 }
 console.log(arrFiveSum);
+
+console.log(arr11);
